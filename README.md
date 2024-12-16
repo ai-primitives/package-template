@@ -1,7 +1,7 @@
+# @ai-primitives/package-template
+
 [![npm version](https://badge.fury.io/js/%40ai-primitives%2Fpackage-template.svg)](https://www.npmjs.com/package/@ai-primitives/package-template)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-# @ai-primitives/package-template
 
 A modern TypeScript package template with Vitest, Prettier, ESLint, and semantic versioning.
 
