@@ -61,6 +61,7 @@ MIT © [AI Primitives](https://mdx.org.ai)
 ## Dependencies
 
 This package uses the following key dependencies:
+
 - TypeScript for static typing
 - Vitest for testing
 - ESLint for linting

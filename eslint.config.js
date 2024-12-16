@@ -9,7 +9,12 @@ export default [
     languageOptions: {
       parser: tsParser,
       parserOptions: {
-        project: './tsconfig.json'
+        project: './tsconfig.json',
+        tsconfigRootDir: '.'
+      },
+      globals: {
+        console: 'readonly',
+        process: 'readonly'
       }
     },
     plugins: {

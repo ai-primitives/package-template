@@ -5,17 +5,20 @@ Thank you for your interest in contributing to our package template! This docume
 ## Development Setup
 
 1. Fork and clone the repository:
+
 ```bash
 git clone https://github.com/ai-primitives/package-template.git
 cd package-template
 ```
 
 2. Install dependencies:
+
 ```bash
 pnpm install
 ```
 
 3. Create a new branch:
+
 ```bash
 git checkout -b feature/your-feature-name
 ```
@@ -25,14 +28,16 @@ git checkout -b feature/your-feature-name
 ### TypeScript Configuration
 
 The project uses TypeScript for type safety. Key configurations:
+
 - Target: ES2020
 - Module: ESNext
 - Strict mode enabled
-- Path aliases configured (@/* points to src/*)
+- Path aliases configured (@/_ points to src/_)
 
 ### Testing with Vitest
 
 We use Vitest for testing. Run tests with:
+
 ```bash
 pnpm test        # Run tests once
 pnpm test:watch  # Run tests in watch mode
@@ -43,16 +48,28 @@ Write tests in the `src/__tests__` directory with the `.test.ts` extension.
 ### Code Style
 
 We use ESLint and Prettier for consistent code style:
+
 - No semicolons
 - Single quotes (including JSX)
 - 160 character line width
+- 2 spaces for indentation
+
+#### Naming Conventions
+
+- Use camelCase for all variable names
+- Use camelCase for object property keys
+- Use camelCase for string literals
+- Use PascalCase for class names and types
+- Use UPPER_SNAKE_CASE for constants
 
 Format your code with:
+
 ```bash
 pnpm format
 ```
 
 Lint your code with:
+
 ```bash
 pnpm lint
 ```
@@ -60,6 +77,7 @@ pnpm lint
 ### Building the Package
 
 Build the package with:
+
 ```bash
 pnpm build
 ```
@@ -79,6 +97,7 @@ type(scope): description
 ```
 
 Types:
+
 - feat: New feature
 - fix: Bug fix
 - docs: Documentation changes
@@ -98,6 +117,7 @@ Types:
 ## Release Process
 
 Releases are automated through GitHub Actions and semantic-release:
+
 1. Commits to main branch trigger the release workflow
 2. Version is determined from commit messages
 3. Changelog is generated automatically
@@ -107,6 +127,7 @@ Releases are automated through GitHub Actions and semantic-release:
 ## Questions or Problems?
 
 Feel free to open an issue for:
+
 - Bug reports
 - Feature requests
 - Help with development setup
